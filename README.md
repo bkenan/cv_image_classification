@@ -1,6 +1,6 @@
 # Computer Vision app
 
-This is a repository for building  a multi-class image classification using Deep Learning. 
+This is a repository for building  a multi-class image classification using Deep Learning and python scripts (with PEP8 standards). 
  
 
 ## Getting Started 
