@@ -20,5 +20,5 @@ After training the model we can see that the model performed better in the produ
    
 ### Analysis and visualizations: [![My Colab notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_wrxpN34Th08xIvTmI7SFIK0-ZlkUhoD?usp=sharing) 
 
-
-
+## Quick GIF demo:
+![Alt text](classification.gif)
