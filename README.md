@@ -16,13 +16,13 @@ The final model was the pre-trained model ResNet-50 which became the state-of th
 After training the model we can see that the model performed better in the production compared to the training set. It’s also pretty impressive that with only 10 number of epochs, the model’s best accuracy in the production dataset was actually 100% and loss was below 5% at all epochs.
 
 
-### The steps for installation:
+## The steps for installation:
 
 1. Clone this repo to your local machine
 2. $ pip install streamlit
 3. $ streamlit run main.py
    
-### Analysis and visualizations: [![My Colab notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_wrxpN34Th08xIvTmI7SFIK0-ZlkUhoD?usp=sharing) 
+## Analysis and visualizations: [![My Colab notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_wrxpN34Th08xIvTmI7SFIK0-ZlkUhoD?usp=sharing) 
 
 ## Quick GIF demo:
 ![classification](https://user-images.githubusercontent.com/53462948/184576795-897d1963-7347-4503-9156-5fd8d474fb97.gif)
