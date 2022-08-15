@@ -10,9 +10,9 @@ Pytorch for deep learning training and streamlit for the UI
 ## Getting Started 
 
 Training images were collected from  various free online resources by using web scraping. 
-The starting point was the transformations for training and validation dataset. Some  randomized cropping (224*224), horizontal flipping and also normalization were also applied then to make our data similar to the Imagenet database. For the test set howeever, only the center cropping was applied while building the pipeline.
+The starting point was the transformations for training and validation dataset. Some  randomized cropping (224*224), horizontal flipping and also normalization were also applied then to make our data similar to the Imagenet database. For the test set however, only the center cropping was applied while building the pipeline.
 The next step was to create the training and validation datasets and dataloaders with the batch size of 8. It turns out that this batch size was ideal for the size of the dataset. The loss function used was Cross entropy and the chosen optimization algorithm was Adam optimizer.
-The final model was the pre-trained model ResNet-50 which became the state-of the art model for the dataset. 
+The final model was the pre-trained model ResNet-50 which became the state-of-the-art model for the problem. 
 After training the model we can see that the model performed better in the production compared to the training set. It’s also pretty impressive that with only 10 number of epochs, the model’s best accuracy in the production dataset was actually 100% and loss was below 5% at all epochs.
 
 
