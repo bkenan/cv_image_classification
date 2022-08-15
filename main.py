@@ -4,8 +4,7 @@ from PIL import Image
 import streamlit as st
 import math
 
-save_path = './net.pth'
-
+save_path = './models/net.pth'
 
 @st.cache(allow_output_mutation=True)
 def load_model():
