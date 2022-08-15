@@ -1,6 +1,10 @@
 # Computer Vision app
 
 This is a repository for building  a multi-class image classification using Deep Learning and python scripts (with PEP8 standards). Currently supported image classes are airport, bridge, building, car, pipe, power plant and railway.
+
+## Technologies used
+
+Pytorch for deep learning training and streamlit for the UI
  
 
 ## Getting Started 
